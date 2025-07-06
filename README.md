@@ -1,2 +1,12 @@
-# Big Bang!
-The very first official Git repository of the resources team. Initially it will host a few documents on what we are trying to with Resources Team at the Astro Club FCP. 
+# The Big Bang
+
+## Introduction
+This repository hosts the Documentation of the Resources Project by the Astro Club, Department of Physics, Fergusson College, Pune (An IUCAA Centre for Astronomy Research and Development- ICARD).
+The Resources Project has four core operations - 
+  a. To create and maintain repositories of various academic knowledge and information that can help its members.
+  b. To maintain an online collaborative workspace that is used for project management by the club members.
+  c. To maintain an active website of the Astro Club
+  d. Moderate an active online community of members online.
+
+  
+
