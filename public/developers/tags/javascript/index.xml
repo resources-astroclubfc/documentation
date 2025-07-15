@@ -1,0 +1,75 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Astro Club&#39;s Repository – Javascript</title>
+    <link>//localhost:1313/tags/javascript/</link>
+    <description>Recent content in Javascript on Astro Club&#39;s Repository</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 02 Jul 2025 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="//localhost:1313/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>JS Client 11.0 is available</title>
+      <link>//localhost:1313/changelog/2025/07-02-js-client-11.0/</link>
+      <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/07-02-js-client-11.0/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;a href=&#34;https://github.com/CleverCloud/clever-client.js/blob/master/CHANGELOG.md#1101-2025-06-30&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Clever Cloud JS client 11.0&lt;/a&gt; is available. It adds API call analysis scripts, uses native WebSocket support and OAuth plaintext instead of HMAC512. Thus, we removed &lt;code&gt;oauth-1.0a&lt;/code&gt; dependency. Note that if you use the event API, you need Node.js 21+.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>JS Client 10.0.0 is available</title>
+      <link>//localhost:1313/changelog/2025/03-25-js-client-10.0.0/</link>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/03-25-js-client-10.0.0/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;a href=&#34;https://github.com/CleverCloud/clever-client.js/blob/master/CHANGELOG.md#1000-2025-03-25&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Clever Cloud JS client 10.0.0&lt;/a&gt; is available. In this release, we cleaned up lots of legacy code and no longer generate CommonJS client as we moved to ECMAScript modules (ESM). &lt;code&gt;eslint&lt;/code&gt;, &lt;code&gt;prettier&lt;/code&gt; and &lt;code&gt;typecheck&lt;/code&gt; are now included and used as part of our quality code check and release process. &lt;code&gt;ResourceLogStream&lt;/code&gt; class is available to manage for new SSE add-ons logs.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>JS Client 9.2 is available</title>
+      <link>//localhost:1313/changelog/2025/02-26-js-client-9.2.0/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/02-26-js-client-9.2.0/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;a href=&#34;https://github.com/CleverCloud/clever-client.js/blob/master/CHANGELOG.md#920-2025-02-26&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Clever Cloud JS client 9.2.0&lt;/a&gt; is available with some enhancements and multiple new features for &lt;code&gt;billing&lt;/code&gt;, &lt;code&gt;grafana&lt;/code&gt;, &lt;code&gt;materia&lt;/code&gt;, etc.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>JS Client 9.0 is available</title>
+      <link>//localhost:1313/changelog/2024/09-12-js-client-9.0.0/</link>
+      <pubDate>Thu, 12 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2024/09-12-js-client-9.0.0/</guid>
+      <description>
+        
+        
+        &lt;p&gt;We released &lt;a href=&#34;https://github.com/CleverCloud/clever-client.js/blob/master/CHANGELOG.md#900-2024-09-11&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Clever Cloud JS client 9.0.0&lt;/a&gt;. It computes OAuth v1 signature with Web Crypto for all platforms (Browser, Node.js, Deno, Bun, CF workers, etc.) instead of relying on &lt;code&gt;node:crypto&lt;/code&gt;. This will simplify usage of the client with a bundler.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

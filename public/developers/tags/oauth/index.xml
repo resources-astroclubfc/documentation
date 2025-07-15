@@ -1,0 +1,56 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Astro Club&#39;s Repository – Oauth</title>
+    <link>//localhost:1313/tags/oauth/</link>
+    <description>Recent content in Oauth on Astro Club&#39;s Repository</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 05 Jun 2025 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="//localhost:1313/tags/oauth/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>New look for OAuth tokens management</title>
+      <link>//localhost:1313/changelog/2025/06-05-oauth-tokens-new-interface/</link>
+      <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/06-05-oauth-tokens-new-interface/</guid>
+      <description>
+        
+        
+        &lt;p&gt;After &lt;a href=&#34;//localhost:1313/developers/changelog/2025/05-28-oauth-consumer-new-interface/&#34; &gt;renewing OAuth consumers management&lt;/a&gt;, we&amp;rsquo;ve just updated the &lt;a href=&#34;https://console.clever-cloud.com/users/me/oauth-tokens&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OAuth tokens section&lt;/a&gt; of users profile. It&amp;rsquo;s where you can see applications linked to your Clever Cloud account: Clever Tools, the Console or those linked to other OAuth consumers. You can still see creation and expiration date, last usage, revoke any or all of them… but in a clearer interface.&lt;/p&gt;
+&lt;p&gt;We also added a link to Clever Cloud&amp;rsquo;s OAuth tokens documentation.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.clever-cloud.com/developers/api/howto/#oauth1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learn more about OAuth tokens&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/changelog/console-new-oauth-tokens.webp&#34; alt=&#34;New OAuth tokens interface&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>New look for OAuth consumers management</title>
+      <link>//localhost:1313/changelog/2025/05-28-oauth-consumer-new-interface/</link>
+      <pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/05-28-oauth-consumer-new-interface/</guid>
+      <description>
+        
+        
+        &lt;p&gt;A new interface is available &lt;a href=&#34;https://console.clever-cloud.com/users/me/oauth-consumers/new&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;in Clever Cloud Console to create&lt;/a&gt; and manage OAuth consumers. It&amp;rsquo;s better, clearer, simpler, and uses our open source &lt;a href=&#34;https://www.clever-cloud.com/developers/clever-components&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;web components&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.clever-cloud.com/developers/api/howto/#oauth1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learn more about OAuth consumers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/changelog/new-oauth-consumer.webp&#34; alt=&#34;New OAuth consumers interface&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Astro Club&#39;s Repository – Postmortem</title>
+    <link>//localhost:1313/postmortem/</link>
+    <description>Recent content in Postmortem on Astro Club&#39;s Repository</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 08 Aug 2024 15:32:06 +0200</lastBuildDate>
+    
+	  <atom:link href="//localhost:1313/postmortem/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>

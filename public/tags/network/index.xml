@@ -1,0 +1,128 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Astro Club FC – Network</title>
+    <link>//localhost:1313/tags/network/</link>
+    <description>Recent content in Network on Astro Club FC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	  <atom:link href="//localhost:1313/tags/network/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Network Groups</title>
+      <link>//localhost:1313/doc/develop/network-groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/doc/develop/network-groups/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Network Groups (NG) are a way to create a private secure network between resources inside Clever Cloud infrastructure, using &lt;a href=&#34;https://www.wireguard.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WireGuard&lt;/a&gt;. It&amp;rsquo;s also possible to connect external resources to a Network Group. There are three components to this feature:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Network Group: a group of resources that can communicate with each through an encrypted tunnel&lt;/li&gt;
+&lt;li&gt;Member: a resource that can be part of a Network Group (&lt;code&gt;application&lt;/code&gt;, &lt;code&gt;addon&lt;/code&gt; or &lt;code&gt;external&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Peer: Instance of a resource connected to a Network Group (can be &lt;code&gt;external&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A Network Group is defined by an ID (&lt;code&gt;ngId&lt;/code&gt;) and a &lt;code&gt;label&lt;/code&gt;. It can be completed by a &lt;code&gt;description&lt;/code&gt; and &lt;code&gt;tags&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;When you create a Network Group, a WireGuard configuration is generated with a corresponding &lt;a href=&#34;https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CIDR&lt;/a&gt;. Then, you can, for example, link an application and an add-on to the same Network Group. These are members, defined by an &lt;code&gt;id&lt;/code&gt;, a &lt;code&gt;label&lt;/code&gt;, a &lt;code&gt;kind&lt;/code&gt; and a &lt;code&gt;domain name&lt;/code&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;
+  &lt;div class=&#34;ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2&#34;&gt;&lt;div class=&#34;hx-select-none hx-text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;
+        ℹ️
+      &lt;/div&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;
+      During beta testing phase, you can add add-ons and external peers to a Network Group, but these features are not yet fully supported. &lt;br&gt;
+A Network Group member domain name is composed this way: &lt;code&gt;&amp;lt;memberID&amp;gt;.m.&amp;lt;ngID&amp;gt;cc-ng.cloud&lt;/code&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;When a resource is linked to a Network Group, you can reach it on any port inside this private network with its domain name. An application instance is a peer, you can reach through an IP (from the attributed CIDR). It works the same way for add-ons and external resources.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/CleverCloud/network-groups-example&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Network Groups demo application&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/cli/network-groups/&#34; &gt;How to use Network Groups from Clever Tools&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/api/v4/#network-groups&#34; &gt;Keycloak and Otoroshi native support for Network Groups&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/CleverCloud/Community/discussions/categories/network-groups&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tell us what you think of Network Groups and what features you need from it in&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Architecture&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;architecture&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#architecture&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;pre class=&#34;mermaid hx-mt-6&#34;&gt;
+  flowchart TD
+    User((User)) --&amp;gt; API[API/Clever Tools]
+    API --&amp;gt; NG[ 10.x.y.z/16]
+
+    subgraph &amp;#34;Network Group&amp;#34;
+        NG --&amp;gt; CC[addon/app members]
+        NG --&amp;gt; Ext[external members]
+
+        subgraph &amp;#34;Clever Cloud infrastructure&amp;#34;
+            CC --&amp;gt; App[application_id.m.ng_id.cc-ng.cloud]
+            CC --&amp;gt; DB[addon_id.m.ng_id.cc-ng.cloud]
+            App --- AppP1[Clever Peer
+            10.x.y.1]
+            App --- AppP2[Clever Peer
+            10.x.y.2]
+            DB --- DBP[Clever Peer
+            10.x.y.3]
+        end
+
+        subgraph &amp;#34;External Infrastructure&amp;#34;
+            Ext --&amp;gt; ExtRes[external_id.m.ngID.cc-ng.cloud]
+            ExtRes --- ExtP[External Peer
+            10.x.y.4]
+        end
+
+
+        %% Mesh network represented by a connecting circle
+        MeshNet(((&amp;#34;All peers can communicate through any port&amp;#34;)))
+        AppP1 --- MeshNet
+        AppP2 --- MeshNet
+        DBP --- MeshNet
+        ExtP --- MeshNet
+    end
+&lt;/pre&gt;&lt;h2&gt;Concepts&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;concepts&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#concepts&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Network Group&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;network-group&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#network-group&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Network Groups operate as an overlay network, on top of the existing physical network infrastructure (underlay). When two peers communicate within a Network Group, packets are encapsulated in WireGuard tunnels that traverse Clever Cloud&amp;rsquo;s underlay network.&lt;/p&gt;
+&lt;p&gt;This approach enables the creation of flexible virtual network topologies without modifying the underlying physical infrastructure. Thanks to this overlay architecture, you can establish private and secure communications between your resources, even if they are physically dispersed across different zones of Clever Cloud&amp;rsquo;s infrastructure or outside of it.&lt;/p&gt;
+&lt;p&gt;Each Network Group has a unique ID (ngId), a human-readable label, and can include an optional description and tags for organisation.&lt;/p&gt;
+&lt;h3&gt;Members&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;members&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#members&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Resources connected to a Network Group can be applications or add-ons running on Clever Cloud (databases, services, etc.), or external resources outside of Clever Cloud (a third-party server, your local machine). Each member is accessible via a domain name.&lt;/p&gt;
+&lt;h3&gt;Peers&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;peers&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#peers&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Individual instances of a member resource. For example, if your application scales to three instances, each instance becomes a peer in the Network Group with its own IP address from the assigned CIDR range.&lt;/p&gt;
+&lt;h2&gt;Key Benefits&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;key-benefits&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#key-benefits&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Network Groups offer secure communication with all traffic between resources encrypted using WireGuard. You gain DNS resolution to access resources by domain name within the Network Group, along with internal port access to reach any port on any resource inside the Network Group. This creates a simplified architecture where you can connect applications and their dependencies in a private network.&lt;/p&gt;
+&lt;h2&gt;Use Cases&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;use-cases&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#use-cases&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Network Groups excel in microservices architecture by connecting multiple services securely without exposing them to the public internet. They simplify database access by allowing applications to access database add-ons through a secure channel. For legacy integration, they help connect external systems securely to your cloud applications. They also provide isolated environments for development and testing.&lt;/p&gt;
+&lt;h2&gt;Technical Implementation&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;technical-implementation&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#technical-implementation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Network Groups leverage WireGuard, a modern VPN protocol known for its simplicity, speed, and security. When you create a Network Group, a dedicated CIDR range is allocated for your Network Group and WireGuard configurations are generated. When members join, they&amp;rsquo;re assigned DNS names and IPs from the CIDR range, encrypted tunnels are established between peers, and traffic between resources flows through these secure tunnels.&lt;/p&gt;
+&lt;h2&gt;Best Practices&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;best-practices&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#best-practices&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Create Network Groups based on functional requirements or environments such as production or staging. Use clear, consistent naming for Network Groups and tag them appropriately. Establish different Network Groups to separate security domains, and keep track of which resources belong to which Network Groups.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

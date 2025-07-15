@@ -1,0 +1,1023 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Astro Club FC – Addons</title>
+    <link>//localhost:1313/tags/addons/</link>
+    <description>Recent content in Addons on Astro Club FC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 10 Jul 2025 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="//localhost:1313/tags/addons/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Redis 8.0.3 is available, with JSON module</title>
+      <link>//localhost:1313/changelog/2025/07-10-redis-8.0.3/</link>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/07-10-redis-8.0.3/</guid>
+      <description>
+        
+        
+        &lt;p&gt;We updated Redis™ to &lt;a href=&#34;https://github.com/redis/redis/releases/tag/8.0.3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;release 8.0.3&lt;/a&gt; which fixes &lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2025-32023&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2025-32023&lt;/a&gt; and &lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2025-48367&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2025-48367&lt;/a&gt;. It&amp;rsquo;s available for add-ons creation and migration. Starting this release, Redis™ on Clever Cloud comes with the JSON module enabled.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/redis/&#34; &gt;Learn more about Redis™ on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://redis.io/docs/latest/develop/data-types/json/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learn more about Redis™ JSON data type&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Terraform provider 0.11.0 is available</title>
+      <link>//localhost:1313/changelog/2025/07-08-terraform-0.11/</link>
+      <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/07-08-terraform-0.11/</guid>
+      <description>
+        
+        
+        &lt;p&gt;The &lt;a href=&#34;https://github.com/CleverCloud/terraform-provider-clevercloud/releases/tag/v0.11.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;0.11.0 release&lt;/a&gt; of the Clever Cloud Terraform provider is available. It allows disabling backups for a &lt;a href=&#34;//localhost:1313/developers/doc/addons/postgresql/&#34; &gt;PostgreSQL add-on&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learn more about &lt;a href=&#34;https://registry.terraform.io/providers/CleverCloud/clevercloud/latest/docs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;our Terraform provider&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Terraform provider 0.10.0 is available</title>
+      <link>//localhost:1313/changelog/2025/07-02-terraform-0.10/</link>
+      <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/07-02-terraform-0.10/</guid>
+      <description>
+        
+        
+        &lt;p&gt;The &lt;a href=&#34;https://github.com/CleverCloud/terraform-provider-clevercloud/releases/tag/v0.10.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;0.10.0 release&lt;/a&gt; of the Clever Cloud Terraform provider is available. It fixes some bugs, introduces support for &lt;a href=&#34;//localhost:1313/developers/doc/develop/network-groups/&#34; &gt;Network Groups&lt;/a&gt; and &lt;a href=&#34;https://www.clever-cloud.com/developers/doc/addons/pulsar/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pulsar&lt;/a&gt;. You can set a version for a &lt;a href=&#34;//localhost:1313/developers/doc/addons/postgresql/&#34; &gt;PostgreSQL add-on&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learn more about &lt;a href=&#34;https://registry.terraform.io/providers/CleverCloud/clevercloud/latest/docs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;our Terraform provider&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>New London region, based on Ionos infrastructure</title>
+      <link>//localhost:1313/changelog/2025/07-01-ionos-london-region/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/07-01-ionos-london-region/</guid>
+      <description>
+        
+        
+        &lt;p&gt;You can now deploy your applications and add-ons in London, England. This region uses &lt;code&gt;ldn&lt;/code&gt; code within our &lt;a href=&#34;//localhost:1313/developers/api&#34; &gt;API&lt;/a&gt;, &lt;a href=&#34;//localhost:1313/developers/doc/cli&#34; &gt;Clever Tools&lt;/a&gt; and various integrations. You can choose it for new or existing services from the &lt;a href=&#34;https://console.clever-cloud.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Console&lt;/a&gt;, just adapt your domain configuration.&lt;/p&gt;
+&lt;p&gt;The London region was created in collaboration with a new European partner, &lt;a href=&#34;https://www.ionos.co.uk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ionos&lt;/a&gt;. Our teams have installed and are operating Clever Cloud within its infrastructure in order to offer you this new service.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/infrastructure/&#34; &gt;Learn more about our infrastructure and partners&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/administrate/domain-names/#configuring-domain-names-by-region&#34; &gt;Learn more about domain configuration on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Keycloak 26.2.5 is available, with two new plugins</title>
+      <link>//localhost:1313/changelog/2025/06-20-keycloak-26.2.5/</link>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/06-20-keycloak-26.2.5/</guid>
+      <description>
+        
+        
+        &lt;p&gt;The release &lt;code&gt;26.2.5&lt;/code&gt; of Keycloak is available on Clever Cloud which &lt;a href=&#34;https://github.com/keycloak/keycloak/releases/26.2.5&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;fixes&lt;/a&gt; some bugs. Starting with this release, we provide Keycloak with &lt;a href=&#34;https://github.com/please-openit/keycloak-2fa-email-authenticator&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2fa-email-authenticator&lt;/a&gt; and &lt;a href=&#34;https://github.com/please-openit/keycloak-authenticator-limit-user-agents&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Limit user agents&lt;/a&gt; plugins.&lt;/p&gt;
+&lt;p&gt;To update, just set &lt;code&gt;CC_KEYCLOAK_VERSION&lt;/code&gt; of the add-on&amp;rsquo;s Java application to &lt;code&gt;26.2.5&lt;/code&gt; and rebuild it. You can also use &lt;a href=&#34;//localhost:1313/developers/doc/cli/operators/&#34; &gt;the new Clever Tools commands&lt;/a&gt;, introduced in &lt;code&gt;3.13.0&lt;/code&gt; release:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;clever features &lt;span class=&#34;nb&#34;&gt;enable&lt;/span&gt; operators
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;clever keycloak version check yourKeycloakNameOrId
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;clever keycloak version update yourKeycloakNameOrId
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;clever keycloak version update yourKeycloakNameOrId 26.2.5&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/keycloak&#34; &gt;Learn more about Keycloak on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Metabase 55 is available</title>
+      <link>//localhost:1313/changelog/2025/06-11-metabase-55/</link>
+      <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/06-11-metabase-55/</guid>
+      <description>
+        
+        
+        &lt;p&gt;The &lt;code&gt;x.55&lt;/code&gt; branch of Metabase is now available on Clever Cloud. It brings a new visualizer, faster and easier to use, database routing, the new search algorithm as default and many more features. To update, just set &lt;code&gt;CC_METABASE_VERSION&lt;/code&gt; of the add-on&amp;rsquo;s Java application to &lt;code&gt;0.55&lt;/code&gt; for the community edition or &lt;code&gt;1.55&lt;/code&gt; for the enterprise edition (EE).&lt;/p&gt;
+&lt;p&gt;You can also use &lt;a href=&#34;//localhost:1313/developers/doc/cli/operators/&#34; &gt;the new Clever Tools commands&lt;/a&gt;, introduced in &lt;code&gt;3.13.0&lt;/code&gt; release:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;clever features &lt;span class=&#34;nb&#34;&gt;enable&lt;/span&gt; operators
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;clever metabase version check yourMetabaseNameOrId
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;clever metabase version update yourMetabaseNameOrId
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;clever metabase version update yourMetabaseNameOrId 0.55&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.metabase.com/releases/metabase-55&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learn more about Metabase 55&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/metabase/&#34; &gt;Learn more about Metabase on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/0wKoZR0zJ6Q?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>MySQL 8.0.42 and 8.4.5 are available</title>
+      <link>//localhost:1313/changelog/2025/06-05-mysql-8.0.42-8.4.5/</link>
+      <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/06-05-mysql-8.0.42-8.4.5/</guid>
+      <description>
+        
+        
+        &lt;p&gt;We updated MySQL 8.0 and 8.4 from Percona Server. They&amp;rsquo;re now available for add-ons creation and migration.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/mysql/&#34; &gt;Learn more about MySQL on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.percona.com/percona-server/8.0/release-notes/8.0.42-33.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learn more about MySQL 8.0.42&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.percona.com/percona-server/8.4/release-notes/8.4.5-5.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learn more about MySQL 8.4.5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Redis 8.0.2 is available (security update)</title>
+      <link>//localhost:1313/changelog/2025/06-04-redis-8.0.2/</link>
+      <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/06-04-redis-8.0.2/</guid>
+      <description>
+        
+        
+        &lt;p&gt;We updated Redis™ to &lt;a href=&#34;https://github.com/redis/redis/releases/tag/8.0.2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;release 8.0.2&lt;/a&gt; which fixes &lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2025-27151&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2025-27151&lt;/a&gt;. It&amp;rsquo;s available for add-ons creation and migration.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/redis/&#34; &gt;Learn more about Redis™ on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Terraform provider 0.9.0 is available</title>
+      <link>//localhost:1313/changelog/2025/06-03-terraform-0.9/</link>
+      <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/06-03-terraform-0.9/</guid>
+      <description>
+        
+        
+        &lt;p&gt;The &lt;a href=&#34;https://github.com/CleverCloud/terraform-provider-clevercloud/releases/tag/v0.9.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;0.9.0 release&lt;/a&gt; of the Clever Cloud Terraform provider introduces support for &lt;code&gt;play2&lt;/code&gt; applications and git local repositories. Starting with this release, if you change an application environment variable, it will be restarted automatically.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learn more about &lt;a href=&#34;https://registry.terraform.io/providers/CleverCloud/clevercloud/latest/docs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;our Terraform provider&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Matomo v5.3.2 is available</title>
+      <link>//localhost:1313/changelog/2025/05-20-matomo-5.3.2/</link>
+      <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/05-20-matomo-5.3.2/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Our &lt;a href=&#34;https://matomo.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Matomo&lt;/a&gt; add-on has been updated to version &lt;code&gt;v5.3.2&lt;/code&gt; which is now used by default. You can deploy this latest release from our &lt;a href=&#34;https://console.clever-cloud.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Console&lt;/a&gt; or &lt;a href=&#34;//localhost:1313/developers/doc/cli/&#34; &gt;Clever Tools&lt;/a&gt;. Existing customers add-ons are already up-to-date.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://matomo.org/changelog/matomo-5-3-2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learn more about Matomo 5.3.2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/matomo/&#34; &gt;Learn more about Matomo on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>PostgreSQL 17.5, 16.9, 15.13, 14.18 and 13.21 are available (security update)</title>
+      <link>//localhost:1313/changelog/2025/05-20-pg-update-17.5/</link>
+      <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/05-20-pg-update-17.5/</guid>
+      <description>
+        
+        
+        &lt;p&gt;New PostgreSQL versions are available for new add-ons and migration:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PostgreSQL 17.5&lt;/li&gt;
+&lt;li&gt;PostgreSQL 16.9&lt;/li&gt;
+&lt;li&gt;PostgreSQL 15.13&lt;/li&gt;
+&lt;li&gt;PostgreSQL 14.18&lt;/li&gt;
+&lt;li&gt;PostgreSQL 13.21&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It includes &lt;a href=&#34;https://www.postgresql.org/about/news/postgresql-175-169-1513-1418-and-1321-released-3072/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;fixes and improvements&lt;/a&gt;, including a security patch for &lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2025-4207&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2025-4207&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/postgresql/&#34; &gt;Learn more about PostgreSQL on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Otoroshi 17.1 is available, audio and image models supported by LLM extension</title>
+      <link>//localhost:1313/changelog/2025/05-19-otoroshi-17.1.1/</link>
+      <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/05-19-otoroshi-17.1.1/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;a href=&#34;https://github.com/MAIF/otoroshi/releases?q=v17.1&amp;amp;expanded=true&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Otoroshi v17.1&lt;/a&gt; is available with multiple improvements, bug fixes and a new canary mode plugin with autonomous rollout. LLM extension is updated to &lt;a href=&#34;https://github.com/cloud-apim/otoroshi-llm-extension/releases/tag/0.0.46&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;0.0.46 release&lt;/a&gt; which brings new OVHcloud endpoints, user provided data for ecological/cost tracking, support of multiple models for audio (speech-to-text, text-to-speech), image generation and moderation.&lt;/p&gt;
+&lt;p&gt;To update just set &lt;code&gt;CC_OTOROSHI_VERSION&lt;/code&gt; of the add-on&amp;rsquo;s Java application to &lt;code&gt;v17.1.1_1747324564&lt;/code&gt; and rebuild it.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/otoroshi/&#34; &gt;Learn more about Otoroshi with LLM on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Terraform provider 0.8.0 is available</title>
+      <link>//localhost:1313/changelog/2025/05-16-terraform-0.8/</link>
+      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/05-16-terraform-0.8/</guid>
+      <description>
+        
+        
+        &lt;p&gt;The &lt;a href=&#34;https://github.com/CleverCloud/terraform-provider-clevercloud/releases/tag/v0.8.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;0.8.0 release&lt;/a&gt; of the Clever Cloud Terraform provider introduces support for &lt;a href=&#34;//localhost:1313/developers/doc/addons/fs-bucket/&#34; &gt;FS Buckets&lt;/a&gt; and update for &lt;a href=&#34;//localhost:1313/developers/doc/addons/cellar/&#34; &gt;Cellar add-ons&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learn more about &lt;a href=&#34;https://registry.terraform.io/providers/CleverCloud/clevercloud/latest/docs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;our Terraform provider&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Redis 8.0.1 is available</title>
+      <link>//localhost:1313/changelog/2025/05-15-redis-8.0.1/</link>
+      <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/05-15-redis-8.0.1/</guid>
+      <description>
+        
+        
+        &lt;p&gt;We updated Redis™ to &lt;a href=&#34;https://github.com/redis/redis/releases/tag/8.0.1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;release 8.0.1&lt;/a&gt; with kernel &lt;code&gt;6.14.6&lt;/code&gt; to fix some stability issues. It&amp;rsquo;s available for add-ons creation and migration.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/redis/&#34; &gt;Learn more about Redis™ on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Link Otoroshi API credentials to your applications</title>
+      <link>//localhost:1313/changelog/2025/05-14-otoroshi-api-env-vars/</link>
+      <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/05-14-otoroshi-api-env-vars/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Starting today, new Otoroshi add-ons deployed on Clever Cloud will expose API related environment variables as service dependencies:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;CC_OTOROSHI_API_URL&lt;/code&gt;: the base URL of the Otoroshi API&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;CC_OTOROSHI_API_CLIENT_ID&lt;/code&gt;: the API key to query the Otoroshi API&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;CC_OTOROSHI_API_CLIENT_SECRET&lt;/code&gt;: the API secret to query the Otoroshi API&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thus, you&amp;rsquo;ll be able to link the add-on to an application and get the API URL and credentials as environment variables.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ADMIN_API_CLIENT_ID&lt;/code&gt; and &lt;code&gt;ADMIN_API_CLIENT_SECRET&lt;/code&gt; environment variables of the Java application are replaced by &lt;code&gt;CC_OTOROSHI_API_CLIENT_ID&lt;/code&gt; and &lt;code&gt;CC_OTOROSHI_API_CLIENT_SECRET&lt;/code&gt; but are still supported during deployment for legacy reasons. The &lt;code&gt;CC_OTOROSHI_SSO_URL&lt;/code&gt; is removed from service dependencies on new add-ons as it&amp;rsquo;s not useful here.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/administrate/service-dependencies/&#34; &gt;Learn more about service dependencies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/otoroshi/&#34; &gt;Learn more about Otoroshi on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Keycloak 26.2.4 is available</title>
+      <link>//localhost:1313/changelog/2025/05-12-keycloak-26.2.4/</link>
+      <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/05-12-keycloak-26.2.4/</guid>
+      <description>
+        
+        
+        &lt;p&gt;The release &lt;code&gt;26.2.4&lt;/code&gt; of Keycloak is available on Clever Cloud which &lt;a href=&#34;https://github.com/keycloak/keycloak/releases/26.2.4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;fixes&lt;/a&gt; some bugs.&lt;/p&gt;
+&lt;p&gt;To update, just set &lt;code&gt;CC_KEYCLOAK_VERSION&lt;/code&gt; of the add-on&amp;rsquo;s Java application to &lt;code&gt;26.2.4&lt;/code&gt; and rebuild it.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/keycloak&#34; &gt;Learn more about Keycloak on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Keycloak 26.2.3 is available</title>
+      <link>//localhost:1313/changelog/2025/05-06-keycloak-26.2.3/</link>
+      <pubDate>Tue, 06 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/05-06-keycloak-26.2.3/</guid>
+      <description>
+        
+        
+        &lt;p&gt;The release &lt;code&gt;26.2.3&lt;/code&gt; of Keycloak is available on Clever Cloud. &lt;a href=&#34;https://github.com/keycloak/keycloak/releases/26.2.3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;It fixes&lt;/a&gt; some bugs and brings possibility to log details and representation to the jboss-logging listener. We updated the Clever Cloud module to comply with the new Keycloak API for 26.x releases.&lt;/p&gt;
+&lt;p&gt;To update, just set &lt;code&gt;CC_KEYCLOAK_VERSION&lt;/code&gt; of the add-on&amp;rsquo;s Java application to &lt;code&gt;26.2.3&lt;/code&gt; and rebuild it.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/keycloak&#34; &gt;Learn more about Keycloak on Clever Cloud&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Redis 8.0.0 is available</title>
+      <link>//localhost:1313/changelog/2025/05-06-redis-8.0.0/</link>
+      <pubDate>Tue, 06 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/05-06-redis-8.0.0/</guid>
+      <description>
+        
+        
+        &lt;p&gt;As Redis™ is &lt;a href=&#34;https://antirez.com/news/151&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;open source again&lt;/a&gt;, we&amp;rsquo;re able to provide release &lt;code&gt;8.0.0&lt;/code&gt;. It&amp;rsquo;s now available for each new deployment. You can easily migrate an existing instance from &lt;a href=&#34;https://console.clever-cloud.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Console&lt;/a&gt;. This new branch brings performance improvements, new features, and bug fixes.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://redis.io/blog/redis-8-ga/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learn more about Redis™ 8&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/redis/&#34; &gt;Learn more about Redis™ on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/EeSckl2L3Xs?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Keycloak 26.2.2 is available (security update)</title>
+      <link>//localhost:1313/changelog/2025/04-30-keycloak-26.2.2-security/</link>
+      <pubDate>Wed, 30 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/04-30-keycloak-26.2.2-security/</guid>
+      <description>
+        
+        
+        &lt;p&gt;The release &lt;code&gt;26.2.2&lt;/code&gt; of Keycloak is available on Clever Cloud. &lt;a href=&#34;https://github.com/keycloak/keycloak/releases/26.2.2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;It fixes&lt;/a&gt; some bugs, &lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2025-3501&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2025-3501&lt;/a&gt; and&lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2025-3910&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2025-3910&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To update, just set &lt;code&gt;CC_KEYCLOAK_VERSION&lt;/code&gt; of the add-on&amp;rsquo;s Java application to &lt;code&gt;26.2.2&lt;/code&gt; and rebuild it.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/keycloak&#34; &gt;Learn more about Keycloak on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Otoroshi update with Biscuit Studio 0.0.13</title>
+      <link>//localhost:1313/changelog/2025/04-25-otoroshi-biscuit-studio-0.0.13/</link>
+      <pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/04-25-otoroshi-biscuit-studio-0.0.13/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;a href=&#34;https://github.com/MAIF/otoroshi/releases/tag/v17.0.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Otoroshi v17.0.0&lt;/a&gt; is available with Biscuit Studio &lt;a href=&#34;https://github.com/cloud-apim/otoroshi-biscuit-studio/releases/tag/0.0.13&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;0.0.13&lt;/a&gt; which enhance &lt;code&gt;BiscuitUserExtractor&lt;/code&gt; plugin capabilities.&lt;/p&gt;
+&lt;p&gt;To update just set &lt;code&gt;CC_OTOROSHI_VERSION&lt;/code&gt; of the add-on&amp;rsquo;s Java application to &lt;code&gt;v17.0.0_1745325312&lt;/code&gt; and rebuild it. You can also delete &lt;code&gt;CC_OTOROSHI_APIM_VERSION&lt;/code&gt;, &lt;code&gt;CC_OTOROSHI_SECRET&lt;/code&gt; variables from the Java application, they are not used anymore.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/otoroshi/&#34; &gt;Learn more about Otoroshi with LLM on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Keycloak 26.2.1 is available with new features and a Grafana dashboard</title>
+      <link>//localhost:1313/changelog/2025/04-24-keycloak-26.2.1-grafana/</link>
+      <pubDate>Thu, 24 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/04-24-keycloak-26.2.1-grafana/</guid>
+      <description>
+        
+        
+        &lt;p&gt;The release &lt;code&gt;26.2.1&lt;/code&gt; of Keycloak is available on Clever Cloud. &lt;a href=&#34;https://github.com/keycloak/keycloak/releases?q=26.2&amp;amp;expanded=true&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This new branch fixes&lt;/a&gt; some bugs, supports Standard Token Exchange according to &lt;a href=&#34;https://datatracker.ietf.org/doc/html/rfc8693&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Token exchange specification&lt;/a&gt;, brings ECS (Elastic Common Schema) JSON format &lt;a href=&#34;https://www.keycloak.org/server/logging&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;for logs&lt;/a&gt;, fine-grained admin permissions, etc. To update, just set &lt;code&gt;CC_KEYCLOAK_VERSION&lt;/code&gt; of the add-on&amp;rsquo;s Java application to &lt;code&gt;26.2.1&lt;/code&gt; and rebuild it.&lt;/p&gt;
+&lt;h2&gt;Grafana dashboard&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;grafana-dashboard&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#grafana-dashboard&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Each Clever Cloud account organisation &lt;a href=&#34;//localhost:1313/developers/doc/metrics/#publish-your-own-metrics&#34; &gt;comes with a pre-configured Grafana service&lt;/a&gt;. With recent Keycloak enhancements on metrics and observability, we&amp;rsquo;ve worked on a Grafana dashboard ready to import:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Go to the &lt;code&gt;Metrics in Grafana&lt;/code&gt; section of your organisation or personal space in &lt;a href=&#34;https://console.clever-cloud.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Console&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Open Grafana, click on the &lt;code&gt;+&lt;/code&gt; icon in the upper right corner and select &lt;code&gt;Import&lt;/code&gt; dashboard&lt;/li&gt;
+&lt;li&gt;Import this &lt;a href=&#34;https://cc-keycloak.cellar-c2.services.clever-cloud.com/keycloak-grafana-dashboard.json&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;JSON file&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Then you&amp;rsquo;ll have a &lt;code&gt;Keycloak dashboard&lt;/code&gt; in your Grafana folders. Just select your Keycloak add-on in the &lt;code&gt;runtime section&lt;/code&gt;, you&amp;rsquo;ll automatically get instance&amp;rsquo;s information, metrics, cache and performance data, etc.&lt;/p&gt;
+&lt;h2&gt;New features and settings&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;new-features-and-settings&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#new-features-and-settings&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Starting with this release, Keycloak add-ons on Clever Cloud come with &lt;code&gt;admin-cli&lt;/code&gt; client disabled by default. If you need it for provisioning through a &lt;code&gt;direct access grant&lt;/code&gt;, you must enable it first.&lt;/p&gt;
+&lt;p&gt;You can now set up a new client with the &lt;code&gt;admin&lt;/code&gt; role for &lt;code&gt;master&lt;/code&gt; realm during build using &lt;code&gt;CC_KEYCLOAK_BOOTSTRAP_ADMIN_CLIENT_ID&lt;/code&gt; and &lt;code&gt;CC_KEYCLOAK_BOOTSTRAP_ADMIN_CLIENT_SECRET&lt;/code&gt; environment variables. Once created, delete them from your application. Bootstrap client &lt;a href=&#34;https://www.keycloak.org/server/bootstrap-admin-recovery&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;should be temporary&lt;/a&gt; and is mostly necessary for provisioning.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/keycloak&#34; &gt;Learn more about Keycloak on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Metabase 54 is available</title>
+      <link>//localhost:1313/changelog/2025/04-22-metabase-54/</link>
+      <pubDate>Tue, 22 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/04-22-metabase-54/</guid>
+      <description>
+        
+        
+        &lt;p&gt;The &lt;code&gt;x.54&lt;/code&gt; branch of Metabase is now available on Clever Cloud. It brings new custom expression editor, better table visualization, simplified data picker for embedding, support of BigInteger values, multiple enhancements and bug fixes. To update, just set &lt;code&gt;CC_METABASE_VERSION&lt;/code&gt; of the add-on&amp;rsquo;s Java application to &lt;code&gt;0.54&lt;/code&gt; for the community edition or &lt;code&gt;1.54&lt;/code&gt; for the enterprise edition (EE).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.metabase.com/releases/metabase-54&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learn more about Metabase 54&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/metabase/&#34; &gt;Learn more about Metabase on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/ew20x0refcs?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>MySQL 8.4.4-4 is available</title>
+      <link>//localhost:1313/changelog/2025/04-10-mysql-8.4.4-update/</link>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/04-10-mysql-8.4.4-update/</guid>
+      <description>
+        
+        
+        &lt;p&gt;We updated MySQL 8.4 from Percona Server. They&amp;rsquo;re now available for add-ons creation and migration.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/mysql/&#34; &gt;Learn more about MySQL on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.percona.com/percona-server/8.4/release-notes/8.4.4-4.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learn more about MySQL 8.4.4-4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>PostgreSQL locale support at database creation</title>
+      <link>//localhost:1313/changelog/2025/04-04-postgresql-locale/</link>
+      <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/04-04-postgresql-locale/</guid>
+      <description>
+        
+        
+        &lt;p&gt;You can now define the locale of your PostgreSQL database when creating a new add-on with &lt;a href=&#34;//localhost:1313/developers/doc/cli&#34; &gt;Clever Tools&lt;/a&gt;:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;clever addon create postgresql-addon pgLocaleTest --plan xxs_sml --option &lt;span class=&#34;nv&#34;&gt;locale&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;en_US&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;This will create a PostgreSQL database with the &lt;code&gt;en_US&lt;/code&gt; locale instead of the default &lt;code&gt;en_GB&lt;/code&gt; locale.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.postgresql.org/support/versioning/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PostgreSQL versioning policy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/postgresql/&#34; &gt;Learn more about PostgreSQL on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Manage existing PosgreSQL replicas from the Console</title>
+      <link>//localhost:1313/changelog/2025/04-02-postgresql-replicas/</link>
+      <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/04-02-postgresql-replicas/</guid>
+      <description>
+        
+        
+        &lt;p&gt;PostgreSQL dashboard in &lt;a href=&#34;https://console.clever-cloud.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;the Clever Cloud Console&lt;/a&gt; now shows if a database is a standalone server or a replica. For PostgreSQL 12+ add-ons, you can promote a read-only replica as a read-write standalone server.&lt;/p&gt;
+&lt;p&gt;To set up replicas, ask your sales representative or &lt;a href=&#34;https://console.clever-cloud.com/ticket-center-choice&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;contact support&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/postgresql#replication&#34; &gt;Learn more about PostgreSQL replication&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/postgresql/&#34; &gt;Learn more about PostgreSQL on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Otoroshi v17.0.0 is available: OpenAI web search and ecological impact/cost tracking in LLM extension</title>
+      <link>//localhost:1313/changelog/2025/04-01-otoroshi-17/</link>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/04-01-otoroshi-17/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;a href=&#34;https://github.com/MAIF/otoroshi/releases/tag/v17.0.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Otoroshi v17.0.0&lt;/a&gt; is available. It fixes some bugs, adds target failover support and allows OpenAPI to be consumed as YAML. This release also brings the new API management feature, providing a way to create an API, flows, routes, backends, consumers and subscriptions. An API is created as draft, can be tested and deployed with lifecycle and version management. This feature is alpha and some functionalities are still early or yet to come. Share your feedback in &lt;a href=&#34;https://github.com/MAIF/otoroshi/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Otoroshi&amp;rsquo;s GitHub discussions&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Biscuit Studio &lt;a href=&#34;https://github.com/cloud-apim/otoroshi-biscuit-studio/releases/tag/0.0.12&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;0.0.12&lt;/a&gt; is included with enhancements from &lt;a href=&#34;https://github.com/cloud-apim/otoroshi-biscuit-studio/releases/tag/0.0.11&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;0.11&lt;/a&gt; release: Distributed revocation, a plugin to fetch a Biscuit from a remote location, new Biscuit extractor types and new admin API routes.&lt;/p&gt;
+&lt;p&gt;LLM Extension &lt;a href=&#34;https://github.com/cloud-apim/otoroshi-llm-extension/releases/tag/0.0.43&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;0.0.43&lt;/a&gt; brings support for OpenAI web search and new ecological impact/cost tracking data linked to each request sent to an AI service provider. &lt;a href=&#34;https://cloud-apim.github.io/otoroshi-llm-extension/docs/overview/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The documentation&lt;/a&gt; has been updated to reflect these changes.&lt;/p&gt;
+&lt;p&gt;To update just set &lt;code&gt;CC_OTOROSHI_VERSION&lt;/code&gt; of the add-on&amp;rsquo;s Java application to &lt;code&gt;v17.0.0_1743436155&lt;/code&gt; and rebuild it. You can also delete &lt;code&gt;CC_OTOROSHI_APIM_VERSION&lt;/code&gt;, &lt;code&gt;CC_OTOROSHI_SECRET&lt;/code&gt; variables from the Java application, they are not used anymore.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/otoroshi/&#34; &gt;Learn more about Otoroshi with LLM on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Keycloak 26.1.4 is available</title>
+      <link>//localhost:1313/changelog/2025/03-28-keycloak-26.1.4/</link>
+      <pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/03-28-keycloak-26.1.4/</guid>
+      <description>
+        
+        
+        &lt;p&gt;The release &lt;code&gt;26.1.4&lt;/code&gt; of Keycloak is available on Clever Cloud. &lt;a href=&#34;https://github.com/keycloak/keycloak/releases/26.1.4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;It fixes&lt;/a&gt; some bugs, upgrades to Infinispan 15.0.14 and allows administrator to disable automatic refresh of event views &lt;code&gt;admin/ui&lt;/code&gt;. In this release we also introduce automatic client provisioning.&lt;/p&gt;
+&lt;p&gt;To update, just set &lt;code&gt;CC_KEYCLOAK_VERSION&lt;/code&gt; of the add-on&amp;rsquo;s Java application to &lt;code&gt;26.1.4&lt;/code&gt; and rebuild it.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/keycloak&#34; &gt;Learn more about Keycloak on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>PostgreSQL 17 is now the default on Clever Cloud</title>
+      <link>//localhost:1313/changelog/2025/03-27-postgresql-default/</link>
+      <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/03-27-postgresql-default/</guid>
+      <description>
+        
+        
+        &lt;p&gt;As &lt;a href=&#34;//localhost:1313/developers/changelog/2025/03-18-postgresql-16-17/&#34; &gt;PostgreSQL 16 and 17 are available&lt;/a&gt; on Clever Cloud, we start using PostgreSQL 17 as the default version for new add-ons. &lt;strong&gt;Starting today&lt;/strong&gt;, when you create a new PostgreSQL database, it will be setup with PostgreSQL 17.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.postgresql.org/support/versioning/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PostgreSQL versioning policy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/postgresql/&#34; &gt;Learn more about PostgreSQL on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Otoroshi update, with new LLM features and Biscuit Studio 0.10</title>
+      <link>//localhost:1313/changelog/2025/03-24-otoroshi-update-biscuit-studio-0.10/</link>
+      <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/03-24-otoroshi-update-biscuit-studio-0.10/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Otoroshi &lt;code&gt;v16.24.0_1742549915&lt;/code&gt; is available. It includes LLM extension &lt;a href=&#34;https://github.com/cloud-apim/otoroshi-llm-extension/releases/tag/0.0.42&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;v0.0.42&lt;/a&gt; with multiple bug fixes, model management improvements, more guardrails features and per-provider context introduced in &lt;a href=&#34;https://github.com/cloud-apim/otoroshi-llm-extension/releases/tag/0.0.39&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;v0.0.39&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Biscuit Studio &lt;a href=&#34;https://github.com/cloud-apim/otoroshi-biscuit-studio/releases/tag/0.0.10&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;0.0.10&lt;/a&gt; is also included with multiple bug fixes, but also public key pair exposition, Biscuit verifiers chaining, Biscuit token and connected user extraction introduced in &lt;a href=&#34;https://github.com/cloud-apim/otoroshi-biscuit-studio/releases/tag/0.0.8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;v0.0.8&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To update just set &lt;code&gt;CC_OTOROSHI_VERSION&lt;/code&gt; of the add-on&amp;rsquo;s Java application to &lt;code&gt;v16.24.0_1742549915&lt;/code&gt; and rebuild it. You can also delete &lt;code&gt;CC_OTOROSHI_APIM_VERSION&lt;/code&gt;, &lt;code&gt;CC_OTOROSHI_SECRET&lt;/code&gt; variables from the Java application, they are not used anymore.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/otoroshi/&#34; &gt;Learn more about Otoroshi with LLM on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Update on PostgreSQL 11 and 12 support on Clever Cloud</title>
+      <link>//localhost:1313/changelog/2025/03-24-postgresql-11-12-eol/</link>
+      <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/03-24-postgresql-11-12-eol/</guid>
+      <description>
+        
+        
+        &lt;p&gt;As &lt;a href=&#34;//localhost:1313/developers/changelog/2025/03-18-postgresql-16-17/&#34; &gt;PostgreSQL 16 and 17 are now available&lt;/a&gt; on Clever Cloud, we&amp;rsquo;ll start to limit access to end-of-life releases: PostgreSQL 11 and 12. &lt;strong&gt;Starting April 30th&lt;/strong&gt;, you won&amp;rsquo;t be able to create new PostgreSQL 11 or 12 add-ons. Note that:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PG11/12 databases deployed before April 30th will still be available after this deadline&lt;/li&gt;
+&lt;li&gt;Customers will still be able to manage their existing PG11/12 databases after this deadline&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;But &lt;strong&gt;we recommend you to migrate to an actively supported version&lt;/strong&gt;. You can do it easily using our included migration tool in your add-on parameters. In the coming weeks, you&amp;rsquo;ll start to see warnings in &lt;a href=&#34;https://console.clever-cloud.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;the Console&lt;/a&gt; if you are still using PostgreSQL 12 or a lower version.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.postgresql.org/support/versioning/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PostgreSQL versioning policy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/postgresql/&#34; &gt;Learn more about PostgreSQL on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Matomo v5.3.1 is available</title>
+      <link>//localhost:1313/changelog/2025/03-21-matomo-5.3.1/</link>
+      <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/03-21-matomo-5.3.1/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Our &lt;a href=&#34;https://matomo.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Matomo&lt;/a&gt; add-on has been updated to version &lt;code&gt;v5.3.1&lt;/code&gt; which is now used by default. You can deploy this latest release from our &lt;a href=&#34;https://console.clever-cloud.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Console&lt;/a&gt; or &lt;a href=&#34;//localhost:1313/developers/doc/cli/&#34; &gt;Clever Tools&lt;/a&gt;. Existing customers add-ons are already up-to-date.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://matomo.org/changelog/matomo-5-3-0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learn more about Matomo 5.3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://matomo.org/changelog/matomo-5-3-1/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learn more about Matomo 5.3.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/matomo/&#34; &gt;Learn more about Matomo on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Terraform provider 0.7.0 is available with more resources you can update</title>
+      <link>//localhost:1313/changelog/2025/03-19-terraform-0.7-resources-update/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/03-19-terraform-0.7-resources-update/</guid>
+      <description>
+        
+        
+        &lt;p&gt;With &lt;a href=&#34;//localhost:1313/developers/changelog/2025/02-19-terraform-0.6-redis/&#34; &gt;0.6.0 release&lt;/a&gt; of the Clever Cloud Terraform provider (compatible with OpenTofu), we introduced the support of resource update. Starting with &lt;a href=&#34;https://github.com/CleverCloud/terraform-provider-clevercloud/releases/tag/v0.7.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;0.7.0&lt;/a&gt; you can now apply a new plan without destroying and recreating the resource on Docker, Java, Python, Scala and Static applications.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learn more about &lt;a href=&#34;https://registry.terraform.io/providers/CleverCloud/clevercloud/latest/docs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;our Terraform provider&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>MySQL 8.4.3-3 and 8.0.41-32 are available</title>
+      <link>//localhost:1313/changelog/2025/03-18-mysql-update/</link>
+      <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/03-18-mysql-update/</guid>
+      <description>
+        
+        
+        &lt;p&gt;We updated MySQL images 8.0 and 8.4 from Percona Server. They&amp;rsquo;re now available for add-ons creation and migration.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/mysql/&#34; &gt;Learn more about MySQL on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.percona.com/percona-server/8.0/release-notes/8.0.41-32.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learn more about MySQL 8.0.41-32&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.percona.com/percona-server/8.4/release-notes/8.4.3-3.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learn more about MySQL 8.4.3-3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>PostgreSQL 16 and 17 are available</title>
+      <link>//localhost:1313/changelog/2025/03-18-postgresql-16-17/</link>
+      <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/03-18-postgresql-16-17/</guid>
+      <description>
+        
+        
+        &lt;p&gt;PostgreSQL 16.8 and 17.4 are now available for add-on creation and migration. Some extensions were removed of these releases: &lt;code&gt;plcoffee&lt;/code&gt;, &lt;code&gt;plls&lt;/code&gt;, &lt;code&gt;plv8&lt;/code&gt; starting PostgreSQL 16 and &lt;code&gt;pgadmin&lt;/code&gt; which is not available starting PostgreSQL 17. They won&amp;rsquo;t be available after a migration. If you used any of them, the process could fail and your database will be kept in its current version.&lt;/p&gt;
+&lt;p&gt;We also updated PostgreSQL 15 to release 15.12, PostgreSQL 14 to release 14.17, PostgreSQL 13 to release 13.20. Migrate your database to the desired major version to get the latest release.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/postgresql/&#34; &gt;Learn more about PostgreSQL on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.postgresql.org/docs/release/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PostgreSQL release notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Keycloak 26.1.3 is available</title>
+      <link>//localhost:1313/changelog/2025/03-03-keycloak-26.1.3/</link>
+      <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/03-03-keycloak-26.1.3/</guid>
+      <description>
+        
+        
+        &lt;p&gt;The release &lt;code&gt;26.1.3&lt;/code&gt; of Keycloak is available on Clever Cloud. &lt;a href=&#34;https://github.com/keycloak/keycloak/releases/26.1.3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;It fixes&lt;/a&gt; some bugs, and we enhanced &lt;a href=&#34;//localhost:1313/developers/doc/addons/keycloak/#importing-realms-data&#34; &gt;realm import procedures&lt;/a&gt;. To update, just set &lt;code&gt;CC_KEYCLOAK_VERSION&lt;/code&gt; of the add-on&amp;rsquo;s Java application to &lt;code&gt;26.1.3&lt;/code&gt; and rebuild it.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/keycloak&#34; &gt;Learn more about Keycloak on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Otoroshi in General Availability</title>
+      <link>//localhost:1313/changelog/2025/02-28-otoroshi-ga-16.24/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/02-28-otoroshi-ga-16.24/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Otoroshi is now in General Availability (GA), with access &lt;a href=&#34;//localhost:1313/developers/api/v4/#operators&#34; &gt;to the operator API&lt;/a&gt;. Deployed version is &lt;code&gt;v16.24.0_1740754279&lt;/code&gt;. The LLM extension includes new models filtering tools and pre-defined context per endpoint. To update, just set &lt;code&gt;CC_OTOROSHI_VERSION&lt;/code&gt; of the add-on&amp;rsquo;s Java application to &lt;code&gt;v16.24.0_1740754279&lt;/code&gt; and rebuild it. You can also delete &lt;code&gt;CC_OTOROSHI_APIM_VERSION&lt;/code&gt;, &lt;code&gt;CC_OTOROSHI_SECRET&lt;/code&gt; variables from the Java application, they are not used anymore.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/otoroshi/&#34; &gt;Learn more about Otoroshi with LLM on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Metabase in General Availability</title>
+      <link>//localhost:1313/changelog/2025/02-24-metabase-ga/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/02-24-metabase-ga/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Metabase is now in General Availability (GA). Deployed version is &lt;code&gt;x.53.4&lt;/code&gt; and you now have access &lt;a href=&#34;//localhost:1313/developers/api/v4/#operators&#34; &gt;to the operator API&lt;/a&gt;. To update, just set &lt;code&gt;CC_METABASE_VERSION&lt;/code&gt; of the add-on&amp;rsquo;s Java application to &lt;code&gt;0.53&lt;/code&gt; for the community edition or &lt;code&gt;1.53&lt;/code&gt; for the enterprise edition (EE) and rebuild it.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/metabase/&#34; &gt;Learn more about Metabase on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Keycloak in General Availability</title>
+      <link>//localhost:1313/changelog/2025/02-21-keycloak-ga/</link>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/02-21-keycloak-ga/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Keycloak is now in General Availability (GA). Deployed version is &lt;code&gt;26.1.2&lt;/code&gt; and you now have access &lt;a href=&#34;//localhost:1313/developers/api/v4/#operators&#34; &gt;to the operator API&lt;/a&gt;. To update, just set &lt;code&gt;CC_KEYCLOAK_VERSION&lt;/code&gt; of the add-on&amp;rsquo;s Java application to &lt;code&gt;26.1.2&lt;/code&gt; and rebuild it.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/keycloak/&#34; &gt;Learn more about Keycloak on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Deploy Redis® on Clever Cloud with Terraform (or OpenTofu), update your plan</title>
+      <link>//localhost:1313/changelog/2025/02-19-terraform-0.6-redis/</link>
+      <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/02-19-terraform-0.6-redis/</guid>
+      <description>
+        
+        
+        &lt;p&gt;You can now deploy &lt;a href=&#34;//localhost:1313/developers/doc/addons/redis&#34; &gt;Redis®&lt;/a&gt; add-ons using our Terraform provider, compatible with OpenTofu. The &lt;a href=&#34;https://github.com/CleverCloud/terraform-provider-clevercloud/releases/tag/v0.6.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;0.6.0 release&lt;/a&gt; of the Clever Cloud Terraform provider also introduce the resource update. You can now apply a new plan without destroying and recreating the resource starting with PHP applications.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learn more about &lt;a href=&#34;https://registry.terraform.io/providers/CleverCloud/clevercloud/latest/docs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;our Terraform provider&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Matomo v5.2.2 is available</title>
+      <link>//localhost:1313/changelog/2025/02-12-matomo-5.2.2/</link>
+      <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/02-12-matomo-5.2.2/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Our &lt;a href=&#34;https://matomo.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Matomo&lt;/a&gt; add-on has been updated to version &lt;code&gt;v5.2.2&lt;/code&gt; which is now used by default. You can deploy this latest release from our &lt;a href=&#34;https://console.clever-cloud.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Console&lt;/a&gt; or &lt;a href=&#34;https://github.com/CleverCloud/clever-tools&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Clever Tools&lt;/a&gt;. Existing customers add-ons are already up-to-date.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://matomo.org/changelog/matomo-5-2-0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learn more about Matomo 5.2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://matomo.org/changelog/matomo-5-2-2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learn more about Matomo 5.2.2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/matomo/&#34; &gt;Learn more about Matomo on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Otoroshi with LLM supports DeepSeek and reasoning</title>
+      <link>//localhost:1313/changelog/2025/02-11-otoroshi-16.23/</link>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/02-11-otoroshi-16.23/</guid>
+      <description>
+        
+        
+        &lt;p&gt;The release &lt;code&gt;16.23.2&lt;/code&gt; of Otoroshi is available for new add-ons. &lt;a href=&#34;https://github.com/MAIF/otoroshi/releases/tag/v16.23.2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;It fixes&lt;/a&gt; some bugs and adds some features but the better comes from LLM Extension which comes with a better OVHcloud AI endpoints integration, DeepSeek and reasoning models support. To upgrade, edit &lt;code&gt;CC_OTOROSHI_VERSION&lt;/code&gt; to &lt;code&gt;v16.23.2&lt;/code&gt;, &lt;code&gt;CC_OTOROSHI_APIM_VERSION&lt;/code&gt; to &lt;code&gt;1739212580&lt;/code&gt; in the Java application and rebuild it.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/otoroshi/&#34; &gt;Learn more about Otoroshi with LLM on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Metabase 53 is available</title>
+      <link>//localhost:1313/changelog/2025/02-10-metabase-53/</link>
+      <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/02-10-metabase-53/</guid>
+      <description>
+        
+        
+        &lt;p&gt;The &lt;code&gt;x.53&lt;/code&gt; branch of Metabase is now available on Clever Cloud. To update, just set &lt;code&gt;CC_METABASE_VERSION&lt;/code&gt; of the add-on&amp;rsquo;s Java application to &lt;code&gt;0.53&lt;/code&gt; for the community edition or &lt;code&gt;1.53&lt;/code&gt; for the enterprise edition (EE).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.metabase.com/releases/metabase-53&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learn more about Metabase 53&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/metabase/&#34; &gt;Learn more about Metabase on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/SMKsq6M__YM?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>MySQL update, with a new option</title>
+      <link>//localhost:1313/changelog/2025/02-05-mysql-update/</link>
+      <pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/02-05-mysql-update/</guid>
+      <description>
+        
+        
+        &lt;p&gt;We updated MySQL images for releases 8.4 (8.4.2-2) and 8.0 (8.0.39-30). A new option is available at database creation from Clever Tools: &lt;a href=&#34;https://dev.mysql.com/doc/refman/8.4/en/replication-options-binary-log.html#option_mysqld_log-bin&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;skip-log-bin&lt;/a&gt;. To use it, add &lt;code&gt;--option skip-log-bin&lt;/code&gt; flag with the &lt;code&gt;clever create addon mysql-addon&lt;/code&gt; command.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.percona.com/blog/mysql-8-4-first-peek/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learn more about MySQL 8.4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/mysql/&#34; &gt;Learn more about MySQL on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Otoroshi v16.23.2 is available, with Biscuit Studio and LLM updates</title>
+      <link>//localhost:1313/changelog/2025/02-04-otoroshi-available/</link>
+      <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/02-04-otoroshi-available/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Otoroshi &lt;code&gt;v16.23.2&lt;/code&gt; is now available on Clever Cloud for new add-ons. You can also update &lt;code&gt;CC_OTOROSHI_VERSION&lt;/code&gt; to &lt;code&gt;v16.23.2&lt;/code&gt;, &lt;code&gt;CC_OTOROSHI_APIM_VERSION&lt;/code&gt; to &lt;code&gt;1738687356&lt;/code&gt; in the Java application and rebuild it.&lt;/p&gt;
+&lt;p&gt;This version includes the brand new Biscuit Studio, allowing you to use such tokens (we use in production for Materia KV and Pulsar) in your routes. It comes with key pair generator, Biscuit verifier, attenuation and roles management tools. The &lt;a href=&#34;https://cloud-apim.github.io/otoroshi-biscuit-studio/docs/plugins/clientcredentials&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;client credentials plugin&lt;/a&gt; supports Biscuit to add a OAuth2 &lt;code&gt;client_credentials&lt;/code&gt; flow to your routes.&lt;/p&gt;
+&lt;p&gt;Web Application Firewall (WAF) plugin and interface are also enhanced in this release. Otoroshi can now use secrets management services declared with environment variables. This allows an easy integration of Clever KMS, our secrets management service available in private alpha for dedicated customers.&lt;/p&gt;
+&lt;p&gt;LLM plugin includes a better models management, compatible with OVHcloud AI endpoints. Functions calling is enabled in Anthropic and Cohere, DeepSeek is available as a provider, &lt;a href=&#34;https://docs.anthropic.com/en/docs/build-with-claude/citations&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Citations from Anthropic&lt;/a&gt; are handled, such as reasoning models and tokens.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://doc.biscuitsec.org/home&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learn more about Biscuit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloud-apim.github.io/otoroshi-biscuit-studio/docs/overview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learn more about Otoroshi Biscuit Studio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/otoroshi/&#34; &gt;Learn more about Otoroshi with LLM on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@Clevercloud-platform/search?query=Otoroshi&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Otoroshi LLM on Clever Cloud video streams&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Keycloak 26.1 is available</title>
+      <link>//localhost:1313/changelog/2025/01-31-keycloak-26.1/</link>
+      <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/01-31-keycloak-26.1/</guid>
+      <description>
+        
+        
+        &lt;p&gt;The release &lt;code&gt;26.1.0&lt;/code&gt; of Keycloak is available on Clever Cloud. &lt;a href=&#34;https://github.com/keycloak/keycloak/releases/26.1.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;It fixes&lt;/a&gt; some bugs, but also brings lots of new features and improvements, such as OpenTelemetry tracing, virtual thread pool support (embedded Infinispan and JGroups) when running on OpenJDK 21, a different way to discover other nodes of the same cluster (&lt;code&gt;jdbc-ping&lt;/code&gt;) and a better OpenID for Verifiable Credential Issuance (OID4VCI) experimental support.&lt;/p&gt;
+&lt;p&gt;To update, just set &lt;code&gt;CC_KEYCLOAK_VERSION&lt;/code&gt; of the add-on&amp;rsquo;s Java application to &lt;code&gt;26.1.0&lt;/code&gt; and rebuild it.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/keycloak&#34; &gt;Learn more about Keycloak on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Otoroshi v16.22 is available</title>
+      <link>//localhost:1313/changelog/2025/01-21-otoroshi-16.22/</link>
+      <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/01-21-otoroshi-16.22/</guid>
+      <description>
+        
+        
+        &lt;p&gt;The release &lt;code&gt;16.22.0&lt;/code&gt; of Otoroshi is available on Clever Cloud for new add-ons. &lt;a href=&#34;https://github.com/MAIF/otoroshi/releases/tag/v16.22.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;It fixes&lt;/a&gt; some bugs and adds some features such as a plugin to add very simple basic auth, without complex user management, plugins to provide information (metrics, health, etc.) as user endpoint. LLM Extension also contains multiple fixes. To upgrade, edit &lt;code&gt;CC_OTOROSHI_VERSION&lt;/code&gt; to &lt;code&gt;v16.22.0&lt;/code&gt;, &lt;code&gt;CC_OTOROSHI_APIM_VERSION&lt;/code&gt; to &lt;code&gt;1737449369&lt;/code&gt; in the Java application and rebuild it.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/otoroshi/&#34; &gt;Learn more about Otoroshi with LLM on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Keycloak 26.0.8 is available (security update)</title>
+      <link>//localhost:1313/changelog/2025/01-14-keycloak-26.0.8/</link>
+      <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2025/01-14-keycloak-26.0.8/</guid>
+      <description>
+        
+        
+        &lt;p&gt;The release &lt;code&gt;26.0.8&lt;/code&gt; of Keycloak is available on Clever Cloud. &lt;a href=&#34;https://github.com/keycloak/keycloak/releases/26.0.8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;It fixes&lt;/a&gt; some bugs, but also security issues: &lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2024-11734&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2024-11734&lt;/a&gt; and &lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2024-11736&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2024-11736&lt;/a&gt;. To update, just set &lt;code&gt;CC_KEYCLOAK_VERSION&lt;/code&gt; of the add-on&amp;rsquo;s Java application to &lt;code&gt;26.0.8&lt;/code&gt; and rebuild it.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/keycloak&#34; &gt;Learn more about Keycloak on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Deploy Keycloak and Metabase on Clever Cloud with Terraform (or OpenTofu)</title>
+      <link>//localhost:1313/changelog/2024/12-24-terraform-0.5-keycloak-metabase/</link>
+      <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2024/12-24-terraform-0.5-keycloak-metabase/</guid>
+      <description>
+        
+        
+        &lt;p&gt;You can now deploy &lt;a href=&#34;//localhost:1313/developers/doc/addons/keycloak&#34; &gt;Keycloak&lt;/a&gt; and &lt;a href=&#34;//localhost:1313/developers/doc/addons/metabase&#34; &gt;Metabase&lt;/a&gt; add-ons using our Terraform provider, compatible with OpenTofu.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learn more about &lt;a href=&#34;https://registry.terraform.io/providers/CleverCloud/clevercloud/latest/docs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;our Terraform provider&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Metabase 52 is available</title>
+      <link>//localhost:1313/changelog/2024/12-05-metabase-52/</link>
+      <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2024/12-05-metabase-52/</guid>
+      <description>
+        
+        
+        &lt;p&gt;The &lt;code&gt;x.52&lt;/code&gt; branch of Metabase is now available on Clever Cloud. To update, just set &lt;code&gt;CC_METABASE_VERSION&lt;/code&gt; of the add-on&amp;rsquo;s Java application to &lt;code&gt;0.52&lt;/code&gt; for the community edition or &lt;code&gt;1.52&lt;/code&gt; for the enterprise edition (EE).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/metabase/&#34; &gt;Learn more about Metabase on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.metabase.com/releases/metabase-52&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learn more about Metabase 52&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/h4xKT3MkLj0?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Otoroshi with LLM is available as an add-on on Clever Cloud</title>
+      <link>//localhost:1313/changelog/2024/12-04-otoroshi-available/</link>
+      <pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/changelog/2024/12-04-otoroshi-available/</guid>
+      <description>
+        
+        
+        &lt;p&gt;After some weeks of testing, the Clever Cloud&amp;rsquo;s Otoroshi with LLM add-on, is available in public beta. Thus, you can deploy the service, from &lt;a href=&#34;https://console.clever-cloud.com/users/me/addons/new&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Console&lt;/a&gt;, &lt;a href=&#34;//localhost:1313/developers/api&#34; &gt;API&lt;/a&gt; or &lt;a href=&#34;https://github.com/CleverCloud/clever-tools&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Clever Tools&lt;/a&gt;, and use it in minutes.&lt;/p&gt;
+&lt;p&gt;We developed this product with its creator and core developer: &lt;a href=&#34;https://github.com/mathieuancelin&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mathieu Ancelin&lt;/a&gt; from &lt;a href=&#34;https://www.cloud-apim.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cloud APIM&lt;/a&gt;. Otoroshi is an open source reverse proxy that allows you to create your own routes, manage authentication, authorization, and rate limiting. It helps you to expose services with enterprise needs in mind, as you can manage organisations, teams, service groups, with event management, data export, multiple secret stores support, etc. And it can be managed from a web interface or &lt;a href=&#34;https://maif.github.io/otoroshi/manual/api.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;as an API&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;On Clever Cloud, it comes batteries included, pre-configured with features such as &lt;a href=&#34;https://maif.github.io/otoroshi/manual/how-to-s/instantiate-waf-coraza.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Coraza Web Appplication Firewall&lt;/a&gt; or &lt;a href=&#34;https://cloud-apim.github.io/otoroshi-llm-extension/docs/overview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LLM extension&lt;/a&gt;. The latter allows you to manage AI services from many providers (Anthropic, Groq, Hugging Face, Mistral, OpenAI, OVHcloud), Ollama instances or any OpenAI API compatible endpoints.&lt;/p&gt;
+&lt;p&gt;All this with a unique interface, adding token management, rate limit, context, validation, moderation, etc. Create your own agents and flows with an only URL, distributing tokens to your team or customers, for cURL requests or integrations to many services and tools… or your own applications hosted on Clever Cloud.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s based on a Java application and a Redis® database. Once deployed you&amp;rsquo;ll get a management URL with credentials. Want to learn more? Feel free to let us know what you think and ask your questions in &lt;a href=&#34;https://github.com/CleverCloud/Community/discussions/categories/otoroshi&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;our GitHub Community&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://maif.github.io/otoroshi/manual/how-to-s/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learn more about Otoroshi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/developers/doc/addons/otoroshi/&#34; &gt;Learn more about Otoroshi with LLM on Clever Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=M8PbydxPw4A&amp;amp;list=PLNHaf5rXAx3FWk7dn2fKGwQXxeLCPhZCh&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Otoroshi LLM extension video tutorials&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
