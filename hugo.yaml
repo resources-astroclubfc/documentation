@@ -90,7 +90,7 @@ params:
     width: full
   editURL:
     enable: true
-    base: "https://github.com/CleverCloud/documentation/edit/main/content"
+    base: ""
 
 markup:
   goldmark:
@@ -106,7 +106,7 @@ enableInlineShortcodes: true
 menu:
 
   main: # -identifier: blank, documentation, tutorials 
-    - name: The Knowledge Base
+    - name: The Repository
       pageRef: /introduction
       weight: 1
 
@@ -133,15 +133,15 @@ menu:
 
     - name: GitHub
       weight: 7
-      url: "https://github.com/CleverCloud/documentation"
+      url: "https://github.com/resources-astroclubfc"
       params:
         icon: github
 
-    - name: Knowledge Base
+    - name: Homepage
       weight: 8
       url: ""
       params:
-        icon: globe-alt
+        icon: home
 
   sidebar:
     - identifier: more

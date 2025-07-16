@@ -1,6 +1,6 @@
 ---
 type: docs
-title: Knowledge Base
+title: Repository
 layout: hextra-home
 disableSidebar: false
 type: default
@@ -15,13 +15,13 @@ width: normal
 
 <div class="hx-mt-6 hx-mb-6">
 {{< hextra/hero-headline >}}
-Astro Club's Knowledge Base
+Astro Club's Repository 
 {{< /hextra/hero-headline >}}
 </div>
 
 <div class="hx-mb-12">
 {{< hextra/hero-subtitle style="margin:.3rem 0 2rem 0">}}
-We are creating a fast, accessible, easy to use and maintain and versatile Knowledge Base for the Club, <br><b>created by the members, for the members!</b>
+We are creating fast, accessible, easy to use and maintain and versatile repositories for the Club, <br><b>created by the members, for the members!</b>
 {{< /hextra/hero-subtitle >}}
 </div>
 

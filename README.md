@@ -2,6 +2,6 @@
 
 Last Modified July 2025]: #
 
-# Astro Club's Knowledge Base
+# Astro Club's Repository
 
-This repository contains a very descriptive documentation of Astro Club's Knowledge Base.
+This repository contains a very descriptive documentation of Astro Club's Repository.

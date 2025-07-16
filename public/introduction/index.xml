@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Astro Club FC – The Knowledge Base</title>
+    <title>Astro Club FC – The Repository</title>
     <link>//localhost:1313/introduction/</link>
-    <description>Recent content in The Knowledge Base on Astro Club FC</description>
+    <description>Recent content in The Repository on Astro Club FC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     

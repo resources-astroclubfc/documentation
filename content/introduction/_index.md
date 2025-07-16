@@ -1,13 +1,13 @@
 ---
 weight: 2
-title: The Knowledge Base
+title: The Repository
 type: docs
 comments: false
-linkTitle: Knowledge Base
+linkTitle: Repository
 ---
 
 {{< hextra/hero-subtitle >}}
-  Everything you want to know about the Astro Club's Knowledge Base all in one document!
+  Everything you want to know about the Astro Club's Repository all in one document!
 {{< /hextra/hero-subtitle >}}
 
 
