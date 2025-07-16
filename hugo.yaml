@@ -104,28 +104,25 @@ enableInlineShortcodes: true
 # Menu 
 
 menu:
-  main: # blank, documentation, tutorials 
-    - identifier: documentation
-      name: 
-      pageRef:
+
+  main: # -identifier: blank, documentation, tutorials 
+    - name: The Knowledge Base
+      pageRef: /introduction
       weight: 1
 
-    - identifier: tutorials
-      name: 
-      pageRef: 
+    - name: Technical Documentation
+      pageRef: /techdoc
       weight: 2
 
-    - identifier: documentation
-      name:
-      pageRef: 
+    - name: Repositories 
+      pageRef: /repos
       weight: 3
 
-    - name: 
-      pageRef: 
+    - name: Developer Notes
       weight: 4
+      url: ""
 
-#    - identifier: components
-#      name: Web Components
+#    - name: Web Components
 #      url: "https://www.clever-cloud.com/developers/clever-components"
 #      weight: 5
 

@@ -27,15 +27,17 @@ We are creating a fast, accessible, easy to use and maintain and versatile Knowl
 
 
 <div class="button-container">
+
+  <div class="hx-mb-6">
+    {{< hero-button-primary text="Login" link="" >}}
+  </div>
   <div class="hx-mb-6">
     {{< hero-button-primary text="Start Here!" link="" >}}
   </div>
   <div class="hx-mb-6">
     {{< hero-button-secondary text="Explore" link="" >}}
   </div>
-  <div class="hx-mb-6">
-    {{< hero-button-secondary text="Developer Notes" link="" >}}
-  </div>
+
 </div>
 
 
