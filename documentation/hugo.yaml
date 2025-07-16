@@ -1,0 +1,158 @@
+#baseURL: https://example.org/
+languageCode: en-us
+title: Astro Club FC 
+#publishDir:
+pagination:
+  pagerSize: 21 # Number of entries in Changelog section before pagination
+
+enableGitInfo: true
+
+module:
+  imports:
+    - path: github.com/imfing/hextra
+
+#outputs:
+#  home: [HTML, LLMS]
+#  page: [HTML, Markdown]
+#  section: [HTML, Markdown, RSS]
+
+#outputFormats:
+#  LLMS:
+#    mediaType: "text/plain"
+#    baseName: "llms"
+#    isPlainText: true
+
+#  Markdown:
+#   baseName: index.html
+
+privacy:
+  youtube:
+    privacyEnhanced: true
+
+defaultContentLanguage: en
+languages:
+  en:
+    languageName: English
+    weight: 1
+    title: Astro Club FC
+
+
+params:
+  customHead:
+    enable: true
+    content: |
+      <script>console.log("✅ customHead works!")</script>
+
+
+
+    flexsearch:
+      # index page by: content | summary | heading | title
+      index: content
+      # full | forward | reverse | strict
+      tokenize: forward
+ 
+  navbar:
+    displayTitle: true
+    displayLogo: true
+    logo:
+      path: images/astro-color.png
+      dark: images/astro-color.png
+      link: /
+      width: 60
+      height: 60
+  
+  comments:
+    enable: true
+    type: giscus
+    # https://giscus.app/
+    giscus:
+      repo: cnivolle/doc.clever-cloud.com
+      repoId: R_kgDOJ9fJag
+      category: General
+      categoryId: DIC_kwDOJ9fJas4CY7gW
+      mapping: pathname
+      # strict: 0
+      # reactionsEnabled: 1
+      # emitMetadata: 0
+      # inputPosition: top
+      # lang: en
+
+  footer:
+      displayCopyright: false
+      displayPoweredBy: true
+      width: normal
+
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
+
+  page:
+    # full (100%), wide (90rem), normal (1280px)
+    width: full
+  editURL:
+    enable: true
+    base: "https://github.com/CleverCloud/documentation/edit/main/content"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+enableInlineShortcodes: true
+
+# Menu 
+
+menu:
+  main: # blank, documentation, tutorials 
+    - identifier: documentation
+      name: 
+      pageRef:
+      weight: 1
+
+    - identifier: tutorials
+      name: 
+      pageRef: 
+      weight: 2
+
+    - identifier: documentation
+      name:
+      pageRef: 
+      weight: 3
+
+    - name: 
+      pageRef: 
+      weight: 4
+
+#    - identifier: components
+#      name: Web Components
+#      url: "https://www.clever-cloud.com/developers/clever-components"
+#      weight: 5
+
+    - name: Search
+      weight: 6
+      params:
+        type: search
+
+    - name: GitHub
+      weight: 7
+      url: "https://github.com/CleverCloud/documentation"
+      params:
+        icon: github
+
+    - name: Knowledge Base
+      weight: 8
+      url: ""
+      params:
+        icon: globe-alt
+
+  sidebar:
+    - identifier: more
+      name: References
+      params:
+        type: separator
+      weight: 1
+#    - identifier: tips_and_tricks
+#      name: "Tips & Tricks"
+#      url: "/doc/best-practices/tips_and_tricks/"
+#      weight: 2
