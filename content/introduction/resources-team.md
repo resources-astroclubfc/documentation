@@ -1,7 +1,7 @@
 ---
-linkTitle: "The Resources Team"
+linkTitle: "Resources Team"
 title: Introduction to the Resources Team
-next: /introduction
+next: 
 prev: /introduction/the-resources-dept
 ---
 
@@ -14,12 +14,12 @@ prev: /introduction/the-resources-dept
 
 #### Next
 {{< cards >}}
-  {{< card link="/introduction/the-resources-team" title="The Resources Department" icon="document-text" subtitle="Learn more about the Resources Team and its 4 subsections!" >}}
+  {{< card link="" title="The Resources Department" icon="document-text" subtitle="Learn more about the Resources Team and its 4 subsections!" >}}
 {{< /cards >}}
 
 <!--Previous Section-->
 
 #### Previous
 {{< cards >}}
-  {{< card link="/introduction" title="The Resources Department" icon="document-text" subtitle="Learn more about the Resources Team and its 4 subsections!" >}}
+  {{< card link="/introduction/the-resources-dept" title="The Resources Department" icon="document-text" subtitle="Learn more about the Resources Team and its 4 subsections!" >}}
 {{< /cards >}}
