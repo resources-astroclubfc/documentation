@@ -194,7 +194,7 @@ params:
 
     # https://giscus.app/
     giscus:
-      repo: resources-astroclubfc/the-big-bang
+      repo: resources-astroclubfc/documentation
       repoId: R_kgDOJ9fJag
       category: General
 #      categoryId: DIC_kwDOJ9fJas4CY7gW

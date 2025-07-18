@@ -143,7 +143,7 @@ Lightbox Modal
 
 <!-- Giscus Comment Section-->
 <script src="https://giscus.app/client.js"
-        data-repo="resources-astroclubfc/the-big-bang"
+        data-repo="resources-astroclubfc/documentation"
         data-repo-id="R_kgDOPGZz-g"
         data-category="Giscus"
         data-category-id="DIC_kwDOPGZz-s4CsjGC"

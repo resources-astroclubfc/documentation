@@ -1,5 +1,5 @@
 {
-  "name": "the-big-bang",
+  "name": "documentation",
   "version": "1.0.0",
   "description": "",
   "type": "module",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/resources-astroclubfc/the-big-bang.git"
+    "url": "git+https://github.com/resources-astroclubfc/documentation.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/resources-astroclubfc/the-big-bang/issues"
+    "url": "https://github.com/resources-astroclubfc/documentation/issues"
   },
-  "homepage": "https://github.com/resources-astroclubfc/the-big-bang#readme",
+  "homepage": "https://github.com/resources-astroclubfc/documentation#readme",
   "dependencies": {
     "@cloudflare/kv-asset-handler": "^0.4.0"
   }
