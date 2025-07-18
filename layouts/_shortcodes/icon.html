@@ -1,6 +1,6 @@
 {{- $name := .Get "name" | default (.Get 0) -}}
 {{- $icon := index site.Data.icons $name -}}
-{{- $attributes := .Get "attributes" | default "height=1em"}}
+{{- $attributes := .Get "attributes" | default "height=4em"}}
 
 {{- if not $icon -}}
   {{ errorf "icon %q not found" $name }}

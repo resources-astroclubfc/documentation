@@ -21,16 +21,21 @@ We are creating a <b>fast, accessible, easy to use & maintain and versatile</b> 
 {{< /hextra/hero-subtitle >}}
 </div>
 
+<div class="hx:mb-12">
+The Big Bang is the code name for the documentation of the Repository Project that is created and maintained the Resources Team, Astro Club FC. We named it the big bang as it encompasses all our ideas that have lead to the creation of this project and we feel at its best this project can change and pivot the trajectory of the club's prestige, popularity and success.
+</div>
+
 <!-- Use "&nbsp;<br class="hx:sm:block hx:hidden"/>" to add a line break in headline/title or subtitle -->
 
 <!--The primary(hero) buttons -->
 
 <div class="hx:mb-8">
-{{< hextra/hero-button text="Get Started" link="docs" >}}
+{{< hextra/hero-button text="Get Started" link="" >}}
+{{< hextra/hero-button text="Contribute" link="" >}}
 </div>
 
 <div class="hx:mb-4">
-{{< hextra/hero-button text="Explore" link="docs" >}}
+{{< hextra/hero-button text="Explore" link="" >}}
 </div>
 
 <div class="hx:mt-6"></div>
@@ -136,6 +141,24 @@ Lightbox Modal
   <img src="https://user-images.githubusercontent.com/5097752/263551418-c403b9a9-a76c-47a6-8466-513d772ef0b7.jpg" alt="Full Image" />
 </div>
 
-
-
 -->
+
+<!-- Giscus Comment Section-->
+<script src="https://giscus.app/client.js"
+        data-repo="resources-astroclubfc/the-big-bang"
+        data-repo-id="R_kgDOPGZz-g"
+        data-category="Giscus"
+        data-category-id="DIC_kwDOPGZz-s4CsjGC"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="dark"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+
+<!--End of the Document-->
